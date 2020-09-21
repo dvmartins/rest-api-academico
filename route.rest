@@ -1,0 +1,22 @@
+### acessando via GET
+GET  http://localhost:3000/cursos
+###
+POST  http://localhost:3000/cursos
+Content-Type: application/json
+
+{
+    "userTitle": "Matematica",
+    "userText": "manhã"
+}
+###
+GET http://localhost:3000/cursos
+###
+DELETE http://localhost:3000/cursos/5f68d61fe8fba22f8cf95056
+###
+PATCH http://localhost:3000/cursos/5f68d541e8fba22f8cf95055
+Content-Type: application/json
+
+{
+    "userTitle": "Quimica Molecular",
+    "userText": "tarde"
+}
